@@ -152,7 +152,7 @@ klipper_install(){
     cd $GITSRC
     report_status "Cloning the KLIPPER folder From GITHUB..."
     sleep 2
-    [ ! -d ${GITSRC}/klipper ] && git clone https://github.com/KevinOConnor/klipper.git &> /dev/null
+    [ ! -d ${GITSRC}/klipper ] && git clone https://github.com/MarkkuSinisalo/klipper.git &> /dev/null
     rsync -a ${GITSRC}/klipper $KlipperFarm &> /dev/null
     sleep 2 
   
