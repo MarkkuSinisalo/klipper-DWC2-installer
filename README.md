@@ -12,7 +12,7 @@ To run it:
 ```
 cd ~ 
 sudo apt install git -y 
-git clone https://github.com/manu7irl/klipper-DWC2-installer
+git clone https://github.com/MarkkuSinisalo/klipper-DWC2-installer
 cd klipper-DWC2-installer
 ./installer.sh
 ```
